@@ -1,0 +1,12 @@
+{
+    "manifest_version" : 2,
+    "name" :" Manav Launcher",
+    "description" : " Quick laumch Manav media",
+    "version" : "1.0.0",
+    "icons" : {"128" : "icon(1).jpg"},
+    "browser_action" : {
+        "default_icon" : "icon.jpg",
+        "default_popup" : "popup.html"
+    },
+    "permissions" : ["activeTab"]
+}
